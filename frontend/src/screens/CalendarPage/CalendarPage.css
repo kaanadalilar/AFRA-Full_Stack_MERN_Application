@@ -1,0 +1,162 @@
+.editTitle {
+  font-size: 40px;
+  text-align: center;
+  color: #2146C7;
+}
+.googleCAL {
+  width: 160px;  
+  height: auto;  
+  font-size: 40px;
+  display: -webkit-box;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.calColOne {
+  width: auto;
+  padding: 40px 30px;
+}
+
+.calColTwo{
+  width: 10px;
+  margin-right: 0px;
+}
+
+.calColThree{
+  width: 10px;
+  margin-left: 30px;
+}
+
+
+.calText {
+  font-size: 30px;
+  text-align: center;
+  color: "black";
+}
+
+.getSubmit {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(27, 107, 125);
+}
+
+.theadCal {
+  background-color:#5F9DF7;
+  color:aliceblue;
+  text-align: center
+}
+.tbodyCal:nth-of-type(even) {
+  text-align: center;
+  color: rgb(6, 63, 75);
+  background-color: #d0e4ee;
+}
+
+.tbodyCal{
+  text-align: center;
+  background-color: #ffff;
+}
+
+td{
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.google {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(9, 70, 84);
+}
+
+.calExplanation {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  color:  #db7029;
+}
+
+.colorDrop {
+  font-size: 30px;
+  text-align: left;
+  color: rgb(9, 70, 84);
+}
+
+
+
+.startLine {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+
+ol {
+  list-style-type: none;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 40%;
+}
+
+.explain {
+  text-align: center;
+}
+
+.listStart {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+
+.teamNames {
+  font-size: 20px;
+  color: rgb(50, 29, 143);
+  text-align: center;
+}
+
+.sub1title {
+  font-size: 25px;
+  text-align: center;
+  color: red;
+}
+
+.sub2title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.sub {
+  text-align: center;
+}
+
+.seasonChooser {
+  color: white;
+  border-color: none;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}
